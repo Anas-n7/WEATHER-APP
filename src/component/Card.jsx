@@ -23,7 +23,7 @@ function Card() {
         setWeather(null);
       }
     } catch (err) {
-      console.error("Error fetching weather:", err);
+      console.error("Error fetching weather:", err); 
     }
   };
 
